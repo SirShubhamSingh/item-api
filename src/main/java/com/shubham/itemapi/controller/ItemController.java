@@ -12,6 +12,7 @@ import java.util.Optional;
 import java.util.UUID;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/api/items")
 public class ItemController {
